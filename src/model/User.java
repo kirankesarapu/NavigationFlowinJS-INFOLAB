@@ -4,16 +4,63 @@
  */
 package model;
 
+import javax.swing.Icon;
+
 /**
  *
  * @author kiran
  */
 public class User {
+
+    /**
+     * @return the type
+     */
+    public String getType() {
+        return type;
+    }
+
+    /**
+     * @param type the type to set
+     */
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    /**
+     * @return the icon
+     */
+    public Icon getIcon() {
+        return icon;
+    }
+
+    /**
+     * @param icon the icon to set
+     */
+    public void setIcon(Icon icon) {
+        this.icon = icon;
+    }
+
+    /**
+     * @return the gender
+     */
+    public String getGender() {
+        return gender;
+    }
+
+    /**
+     * @param gender the gender to set
+     */
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
      private String name;
      private String lastName;
      private String age;
      private String email;
      private String message;
+     private String type;
+     private Icon icon;
+     private String gender;
 
     /**
      * @return the name
