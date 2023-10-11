@@ -4,6 +4,7 @@
  */
 package model;
 
+import java.util.Date;
 import javax.swing.Icon;
 
 /**
@@ -11,6 +12,20 @@ import javax.swing.Icon;
  * @author kiran
  */
 public class User {
+
+    /**
+     * @return the dateOfBirth
+     */
+    public Date getdateOfBirth() {
+        return dateOfBirth;
+    }
+
+    /**
+     * @param dateOfBirth the dateOfBirth to set
+     */
+    public void setdateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
 
     /**
      * @return the type
@@ -61,6 +76,7 @@ public class User {
      private String type;
      private Icon icon;
      private String gender;
+     private Date dateOfBirth;
 
     /**
      * @return the name

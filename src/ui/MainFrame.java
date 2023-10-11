@@ -35,7 +35,6 @@ public class MainFrame extends javax.swing.JFrame {
         bottomPanel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(700, 700));
 
         SplitPane.setDividerLocation(80);
         SplitPane.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
@@ -59,11 +58,11 @@ public class MainFrame extends javax.swing.JFrame {
         topPanelLayout.setHorizontalGroup(
             topPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(topPanelLayout.createSequentialGroup()
-                .addGap(44, 44, 44)
+                .addGap(179, 179, 179)
                 .addComponent(formButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 458, Short.MAX_VALUE)
+                .addGap(123, 123, 123)
                 .addComponent(viewButton)
-                .addGap(48, 48, 48))
+                .addContainerGap(248, Short.MAX_VALUE))
         );
         topPanelLayout.setVerticalGroup(
             topPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
