@@ -18,7 +18,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import model.User;
+import model.Patient;
 
 /**
  *
@@ -382,7 +382,7 @@ public class FormPanel extends javax.swing.JPanel {
             a.getContentPane().add(successPanel);
             a.pack();
             a.setVisible(true);*/
-        User newUser = new User();
+        Patient newUser = new Patient();
         newUser.setName(name);
         newUser.setLastName(lastName);
         newUser.setAge(age);

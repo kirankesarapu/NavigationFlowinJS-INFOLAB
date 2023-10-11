@@ -11,7 +11,7 @@ import javax.swing.Icon;
  *
  * @author kiran
  */
-public class User {
+public class Patient {
 
     /**
      * @return the dateOfBirth

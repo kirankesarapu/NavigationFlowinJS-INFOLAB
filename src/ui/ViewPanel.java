@@ -17,7 +17,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import model.User;
+import model.Patient;
 
 /**
  *
@@ -30,11 +30,13 @@ public class ViewPanel extends javax.swing.JPanel {
     /**
      * Creates new form FormPanel
      */
-    private User newUser;
+    private Patient newUser;
     
-    public ViewPanel(){}
+    public ViewPanel(){
+        initComponents();
+    }
     
-    public ViewPanel(User newUser) {
+    public ViewPanel(Patient newUser) {
         this.newUser = newUser;
         initComponents();
         firstNameValue.setText(newUser.getName());
