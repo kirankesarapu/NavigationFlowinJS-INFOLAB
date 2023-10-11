@@ -68,7 +68,7 @@
                               <Component id="patientTypeValue" alignment="0" pref="157" max="32767" attributes="0"/>
                               <Component id="emailValue" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="dateOfBirthValue" alignment="0" min="-2" pref="211" max="-2" attributes="0"/>
+                          <Component id="dateOfBirthValue" alignment="0" min="-2" pref="247" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
